@@ -4,4 +4,4 @@
 
 _Página realizada con HTML5, CCS3 y Javascript._
 
-https://matiasmajul.github.io/repository/
+https://matiasmajul.github.io/portfolio/
