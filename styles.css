@@ -352,6 +352,7 @@ h1::after {
 }
 
 #projects .fake-work {
+  z-index: -1;
   position: absolute;
   right: -5rem;
   color: var(--gray-300);
@@ -362,6 +363,21 @@ h1::after {
 #projects h2 {
   color: var(--coral);
   font-size: 4rem;
+}
+
+#projects ul {
+  z-index: 2;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: baseline;
+}
+#projects ul li {
+  width: 200px;
+  height: 200px;
+  border: 1px solid var(--coral);
+  border-radius: 10px;
+  background-color: #0000006c;
 }
 
 #contact {
@@ -502,7 +518,7 @@ h1::after {
   width: 50vw;
 }
 
-.particles__p1 {
+.particles {
   z-index: -1;
   position: absolute;
   top: -6px;

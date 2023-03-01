@@ -15,7 +15,7 @@ for (var i = 1; i < numP; i++) {
 window.addEventListener("mousemove", move);
 
 function move(e) {
-  for (var ii = 1; ii < numP; ii++) {
+  for (var ii = 0; ii < numP; ii++) {
     TweenMax.to("#p" + ii, 0.5, {
       delay: 0.01 * ii,
       bezier: {

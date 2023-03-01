@@ -20,7 +20,13 @@ $(document).ready(function () {
       "tags"
     )
   ) {
-    // something went wrong, hide the canvas container
     $("#myCanvasContainer").hide();
   }
 });
+
+//!!TODO : HOME ->  agregar etiqueta body
+//!!TODO : PROYECTOS: Agregar proyectos con efectos, agregar etiquetas
+//!!TODO : ABOUT: Agregar enlace a CV con posibilidad de descarga, agregar etiquetas
+//!!TODO : CONTACT: Validación formulario, enviar al mail, agregar mail en mapa.  mejorar estilo al seleccionar. Validacion de email, agregar etiquetas
+//!!TODO : HEADER: Foto al hacer hover sobre logo
+//!!TODO : GENERAL! Buscar fuentes, subir a github, crear dominio, subir a hosting
